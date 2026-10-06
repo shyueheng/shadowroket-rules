@@ -1,3 +1,7 @@
+#!name=cross-platform Rules
+#!desc=Description Here
+
+[Rule]
 # Anthropic
 DOMAIN-SUFFIX,anthropic.com,PROXY-ISP
 DOMAIN-SUFFIX,claude.ai,PROXY-ISP
