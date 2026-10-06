@@ -1,0 +1,105 @@
+# Anthropic
+DOMAIN-SUFFIX,anthropic.com,PROXY-ISP
+DOMAIN-SUFFIX,claude.ai,PROXY-ISP
+
+# OpenAI
+DOMAIN-SUFFIX,openai.com,PROXY-ISP
+DOMAIN-SUFFIX,chatgpt.com,PROXY-ISP
+DOMAIN-SUFFIX,oaistatic.com,PROXY-ISP
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY-ISP
+
+# Google
+DOMAIN-SUFFIX,goog,PROXY-ISP
+DOMAIN-SUFFIX,google,PROXY-ISP
+DOMAIN-SUFFIX,google.com,PROXY-ISP
+DOMAIN-SUFFIX,google.com.tw,PROXY-ISP
+DOMAIN-SUFFIX,googleapis.com,PROXY-ISP
+DOMAIN-SUFFIX,googleusercontent.com,PROXY-ISP
+DOMAIN-SUFFIX,gstatic.com,PROXY-ISP
+DOMAIN-SUFFIX,gvt1.com,PROXY-ISP
+DOMAIN-SUFFIX,withgoogle.com,PROXY-ISP
+DOMAIN,tunnel.googlezip.net,PROXY-ISP
+# YouTube
+DOMAIN-SUFFIX,ggpht.com,PROXY-ISP
+DOMAIN-SUFFIX,googlevideo.com,PROXY-ISP
+DOMAIN-SUFFIX,youtube.com,PROXY-ISP
+DOMAIN-SUFFIX,ytimg.com,PROXY-ISP
+
+# X
+DOMAIN-SUFFIX,twimg.com,PROXY-ISP
+DOMAIN-SUFFIX,twitter.com,PROXY-ISP
+DOMAIN-SUFFIX,x.com,PROXY-ISP
+DOMAIN,t.co,PROXY-ISP
+# Grok
+DOMAIN-SUFFIX,x.ai,PROXY-ISP
+DOMAIN-SUFFIX,grok.com,PROXY-ISP
+
+# Telegram
+IP-CIDR,149.154.166.120/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.165.136/32,PROXY-ISP,no-resolve
+DOMAIN-SUFFIX,telesco.pe,PROXY-ISP
+DOMAIN,t.me,PROXY-ISP
+IP-CIDR,149.154.175.56/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.223/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.151/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.175.54/32,PROXY-ISP,no-resolve
+IP-CIDR,91.108.56.156/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.171.5/32,PROXY-ISP,no-resolve
+IP-CIDR,91.108.56.160/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.175.50/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.91/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.92/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.175.53/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.50/32,PROXY-ISP,no-resolve
+# Global Network Management Inc
+IP-CIDR,95.161.76.100/32,PROXY-ISP,no-resolve
+IP-CIDR,149.154.167.41/32,PROXY-ISP,no-resolve
+DOMAIN-SUFFIX,telegram.org,PROXY-ISP
+
+# Apple
+DOMAIN,apple-relay.fastly-edge.com,PROXY
+DOMAIN,token.safebrowsing.apple,PROXY
+DOMAIN,apple-relay.cloudflare.com,PROXY
+DOMAIN-SUFFIX,apple.cn,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud.com.cn,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com.cn,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
+DOMAIN,ta-cn-south-00001-1329476759.cos.accelerate.tencentcos.cn,DIRECT
+
+# Github
+DOMAIN-SUFFIX,github.com,PROXY-STATIC
+DOMAIN-SUFFIX,github.io,PROXY-STATIC
+DOMAIN-SUFFIX,githubassets.com,PROXY-STATIC
+DOMAIN-SUFFIX,githubusercontent.com,PROXY-STATIC
+DOMAIN-SUFFIX,githubcopilot.com,PROXY-STATIC
+DOMAIN-SUFFIX,ghcr.io,PROXY-STATIC
+
+# Jev
+DOMAIN-SUFFIX,typesafe.ai,PROXY-ISP
+DOMAIN,framer.com,PROXY
+DOMAIN,api.framer.com,PROXY
+DOMAIN,app.framerstatic.com,PROXY
+DOMAIN,framerusercontent.com,PROXY
+DOMAIN,mintcdn.com,PROXY
+DOMAIN,api.stytch.com,PROXY-ISP
+DOMAIN,assets.unicorn.studio,PROXY
+DOMAIN,www.unicorn.studio,PROXY
+DOMAIN,vimeo.com,PROXY
+DOMAIN,arclight.vimeo.com,PROXY
+DOMAIN,player.vimeo.com,PROXY
+DOMAIN-SUFFIX,vimeocdn.com,PROXY
+
+# OCSP
+DOMAIN,ocsp.digicert.cn,DIRECT
+DOMAIN,ocsp.digicert.com,PROXY
+DOMAIN,ocsp.usertrust.com,DIRECT
+DOMAIN,ocsp.comodoca.com,DIRECT
+
+# Remotion
+DOMAIN-SUFFIX,remotion.dev,PROXY
